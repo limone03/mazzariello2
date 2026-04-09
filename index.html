@@ -8,8 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 </head>
 <body>
- 
-  <!-- NAV LATERALE SINISTRA -->
+
   <nav class="navbar" id="navbar">
     <div class="nav-logo">
       <div class="logo-circle">
@@ -17,68 +16,77 @@
       </div>
       <span class="logo-text">Infissi Mazzariello</span>
     </div>
+
     <ul class="nav-links">
       <li><a href="#hero">Home</a></li>
       <li><a href="#storia">La Nostra Storia</a></li>
       <li><a href="#prodotti">Prodotti</a></li>
       <li><a href="#contatti">Contatti</a></li>
     </ul>
+
     <button class="nav-toggle" id="navToggle" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
   </nav>
- 
-  <!-- CONTENUTO (scostato dalla sidebar) -->
+
   <div class="page-content">
- 
-    <!-- HERO -->
+
     <section class="hero" id="hero">
       <div class="hero-bg-img"></div>
       <div class="hero-overlay"></div>
+
       <div class="hero-content">
         <p class="hero-tagline">Dal 1989</p>
-        <h1 class="hero-title">Serramenti<br/><em>d'eccellenza</em></h1>
+        <h1 class="hero-title">Serramenti<br><em>d'eccellenza</em></h1>
         <p class="hero-sub">Artigianato italiano. Qualità senza compromessi.</p>
         <a href="#storia" class="btn-outline">Scopri la nostra storia</a>
       </div>
+
       <div class="scroll-hint">
         <span>Scorri</span>
         <div class="scroll-line"></div>
       </div>
     </section>
- 
-    <!-- STORIA -->
+
     <section class="storia" id="storia">
       <div class="storia-bg"></div>
       <div class="storia-overlay"></div>
+
       <div class="storia-container">
         <div class="storia-badge">La Nostra Storia</div>
+
         <div class="storia-content">
           <div class="storia-year">1989</div>
+
           <div class="storia-text">
-            <h2>Un'intuizione,<br/><em>una famiglia,<br/>una missione.</em></h2>
+            <h2>Un'intuizione,<br><em>una famiglia,<br>una missione.</em></h2>
+
             <p>
               Nel 1989 da un'intuizione di Nicola Mazzariello nasce un'azienda a conduzione familiare
               specializzata nella realizzazione di serramenti. La solida esperienza artigianale e la
-              continua spinta nella ricerca di soluzioni sempre innovative, sono la base per mantenere
+              continua spinta nella ricerca di soluzioni sempre innovative sono la base per mantenere
               nel tempo un'azienda strutturalmente giovane e sempre tecnologicamente all'avanguardia.
             </p>
+
             <p>
               Macchinari ad alta tecnologia e personale qualificato hanno consentito la creazione di
               un polo produttivo in grado di realizzare serramenti d'eccellenza. La cura dei particolari,
-              la passione e una grande attenzione ad ogni singola fase della produzione ci porta a
-              realizzare prodotti su misura, grazie all'alta qualità delle materie prime che sono
-              interamente realizzate in Italia.
+              la passione e una grande attenzione ad ogni singola fase della produzione portano alla
+              realizzazione di prodotti su misura, grazie all'alta qualità delle materie prime interamente
+              realizzate in Italia.
             </p>
+
             <div class="storia-pillars">
               <div class="pillar">
                 <span class="pillar-num">35+</span>
                 <span class="pillar-label">Anni di esperienza</span>
               </div>
+
               <div class="pillar">
                 <span class="pillar-num">100%</span>
                 <span class="pillar-label">Made in Italy</span>
               </div>
+
               <div class="pillar">
                 <span class="pillar-num">∞</span>
                 <span class="pillar-label">Prodotti su misura</span>
@@ -88,18 +96,20 @@
         </div>
       </div>
     </section>
- 
-    <!-- PRODOTTI -->
+
     <section class="prodotti" id="prodotti">
       <div class="prodotti-header">
         <div class="section-badge">I Nostri Prodotti</div>
-        <h2>Soluzioni per ogni<br/><em>esigenza</em></h2>
-        <p class="prodotti-intro">Realizziamo serramenti su misura con le migliori tecnologie disponibili sul mercato, garantendo prestazioni termiche, acustiche ed estetiche di altissimo livello.</p>
+        <h2>Soluzioni per ogni<br><em>esigenza</em></h2>
+        <p class="prodotti-intro">
+          Realizziamo serramenti su misura con le migliori tecnologie disponibili sul mercato,
+          garantendo prestazioni termiche, acustiche ed estetiche di altissimo livello.
+        </p>
       </div>
- 
+
       <div class="prodotti-grid">
- 
-        <div class="prodotto-card">
+
+        <article class="prodotto-card">
           <div class="prodotto-icon">
             <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="8" y="8" width="44" height="44" rx="2" stroke="currentColor" stroke-width="1.5"/>
@@ -108,12 +118,11 @@
               <line x1="8" y1="29" x2="52" y2="29" stroke="currentColor" stroke-width="1.2"/>
             </svg>
           </div>
-          <h3>Alluminio<br/>Taglio Termico</h3>
-          <p>Il sistema più diffuso per infissi ad alte prestazioni energetiche. Il taglio termico separa le due parti del profilo in alluminio con una barriera isolante, riducendo drasticamente la dispersione di calore.</p>
-          </div>
-        </div>
- 
-        <div class="prodotto-card featured">
+          <span class="prodotto-label">Efficienza energetica</span>
+          <h3>Alluminio<br>Taglio Termico</h3>
+        </article>
+
+        <article class="prodotto-card featured">
           <div class="prodotto-icon">
             <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="6" y="6" width="48" height="48" rx="2" stroke="currentColor" stroke-width="1.5"/>
@@ -121,11 +130,11 @@
               <path d="M12 12 L24 24 M48 12 L36 24 M12 48 L24 36 M48 48 L36 36" stroke="currentColor" stroke-width="1"/>
             </svg>
           </div>
-          <h3>Combinato<br/>Alluminio–Legno</h3>
-          </div>
-        </div>
- 
-        <div class="prodotto-card">
+          <span class="prodotto-label">Premium</span>
+          <h3>Combinato<br>Alluminio–Legno</h3>
+        </article>
+
+        <article class="prodotto-card">
           <div class="prodotto-icon">
             <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="10" y="8" width="40" height="44" rx="2" stroke="currentColor" stroke-width="1.5"/>
@@ -134,11 +143,11 @@
               <circle cx="30" cy="30" r="3" stroke="currentColor" stroke-width="1.2"/>
             </svg>
           </div>
-          <h3>PVC<br/>(Commercializzazione)</h3>
-          <p>Commercializziamo serramenti in PVC di prima qualità: il materiale ideale per chi cerca un ottimo rapporto qualità-prezzo, con buone proprietà di isolamento termico e acustico.</p>
-        </div>
- 
-        <div class="prodotto-card">
+          <span class="prodotto-label">Economico</span>
+          <h3>PVC<br>(Commercializzazione)</h3>
+        </article>
+
+        <article class="prodotto-card">
           <div class="prodotto-icon">
             <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="8" y="10" width="44" height="40" rx="2" stroke="currentColor" stroke-width="1.5"/>
@@ -148,21 +157,23 @@
               <line x1="45" y1="30" x2="52" y2="30" stroke="currentColor" stroke-width="1.2"/>
             </svg>
           </div>
-          <h3>Alluminio<br/>Taglio Freddo R40</h3>
-          <p>Il profilo R40 in alluminio a taglio freddo è la soluzione professionale per contesti industriali, commerciali e architetturali dove resistenza strutturale e semplicità costruttiva sono prioritarie.</p>
-        </div>
+          <span class="prodotto-label">Industriale</span>
+          <h3>Alluminio<br>Taglio Freddo R40</h3>
+        </article>
+
       </div>
     </section>
- 
-    <!-- CONTATTI -->
+
     <section class="contatti" id="contatti">
       <div class="contatti-inner">
         <div class="section-badge light">Contatti</div>
-        <h2>Parliamo<br/><em>insieme</em></h2>
-        <p class="contatti-sub">Siamo a tua disposizione per qualsiasi richiesta di preventivo, informazione o consulenza tecnica.</p>
- 
+        <h2>Parliamo<br><em>insieme</em></h2>
+        <p class="contatti-sub">
+          Siamo a tua disposizione per qualsiasi richiesta di preventivo, informazione o consulenza tecnica.
+        </p>
+
         <div class="contatti-grid">
- 
+
           <div class="contatto-item">
             <div class="contatto-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -171,11 +182,10 @@
             </div>
             <div class="contatto-info">
               <span class="contatto-label">Telefono</span>
-              <!-- Ricorda a Francesco che qua servono i contatti -->
               <span class="contatto-value">N/D — da inserire</span>
             </div>
           </div>
- 
+
           <div class="contatto-item">
             <div class="contatto-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -185,11 +195,10 @@
             </div>
             <div class="contatto-info">
               <span class="contatto-label">Email</span>
-              <!-- Ricorda a Francesco che qua servono i contatti -->
               <span class="contatto-value">N/D — da inserire</span>
             </div>
           </div>
- 
+
           <div class="contatto-item">
             <div class="contatto-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -199,11 +208,10 @@
             </div>
             <div class="contatto-info">
               <span class="contatto-label">Indirizzo</span>
-              <!-- Ricorda a Francesco che qua servono i contatti -->
               <span class="contatto-value">N/D — da inserire</span>
             </div>
           </div>
- 
+
           <div class="contatto-item">
             <div class="contatto-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -213,16 +221,14 @@
             </div>
             <div class="contatto-info">
               <span class="contatto-label">Orari</span>
-              <!-- Ricorda a Francesco che qua servono i contatti -->
               <span class="contatto-value">N/D — da inserire</span>
             </div>
           </div>
- 
+
         </div>
       </div>
     </section>
- 
-    <!-- FOOTER -->
+
     <footer class="footer">
       <div class="footer-inner">
         <div class="footer-logo">
@@ -231,7 +237,9 @@
           </div>
           <span>Infissi Mazzariello</span>
         </div>
+
         <p class="footer-copy">© 2025 Infissi Mazzariello. Tutti i diritti riservati. Made in Italy.</p>
+
         <div class="footer-links">
           <a href="#storia">Storia</a>
           <a href="#prodotti">Prodotti</a>
@@ -239,47 +247,51 @@
         </div>
       </div>
     </footer>
- 
-  </div><!-- /page-content -->
- 
+
+  </div>
+
   <script>
-    // Mobile toggle
     const toggle = document.getElementById('navToggle');
     const navbar = document.getElementById('navbar');
-    toggle.addEventListener('click', () => {
-      navbar.classList.toggle('open');
-      toggle.classList.toggle('active');
-    });
+
+    if (toggle) {
+      toggle.addEventListener('click', () => {
+        navbar.classList.toggle('open');
+        toggle.classList.toggle('active');
+      });
+    }
+
     document.querySelectorAll('.nav-links a').forEach(link => {
       link.addEventListener('click', () => {
         navbar.classList.remove('open');
-        toggle.classList.remove('active');
+        if (toggle) toggle.classList.remove('active');
       });
     });
- 
-    // Active link on scroll
+
     const sections = document.querySelectorAll('section[id]');
+
     window.addEventListener('scroll', () => {
       let current = '';
-      sections.forEach(s => {
-        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      sections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 120) {
+          current = section.id;
+        }
       });
-      document.querySelectorAll('.nav-links a').forEach(a => {
-        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === '#' + current);
       });
     });
- 
-    // Scroll-reveal
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) entry.target.classList.add('visible');
       });
     }, { threshold: 0.12 });
- 
+
     document.querySelectorAll('.prodotto-card, .storia-content, .storia-pillars, .contatto-item').forEach(el => {
       observer.observe(el);
     });
   </script>
 </body>
 </html>
- 
